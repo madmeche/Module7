@@ -4,7 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ClockDisplay from './Component/Lab1/ClockDisplay'
 import ActivityFinder from './Component/ActivityFinder'
-import RefCounter from './Component/RefCounter'
+// import RefCounter from './Component/RefCounter'
+import  BasicCard  from './Component/ClassExercise/BasicCard'
+import CreateForm from './Component/CreateForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +15,9 @@ function App() {
     <>
      {/* <ClockDisplay/> */}
      {/* <ActivityFinder/> */}
-     <RefCounter/>
+     {/* <RefCounter/> */}
+     <BasicCard/>
+     <CreateForm/>
       
       
     </>
