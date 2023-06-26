@@ -16,5 +16,23 @@ movies(){
     return movies;
 }}
 
+//add a movie
+addMovie(data){
+    this.#log(data.title)
+    const newId = `${movies.length + 1}` 
+    const newMovie = {
+        id :newId,
+       ...data
+    }
+
+    //push the data to our array of
+    movies.push(newMovie)
+    return movies.length
+}
+}
+    
+
+
+
 module.exports = Database;
     
